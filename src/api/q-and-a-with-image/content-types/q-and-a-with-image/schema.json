@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "q_and_a_with_images",
+  "info": {
+    "singularName": "q-and-a-with-image",
+    "pluralName": "q-and-a-with-images",
+    "displayName": "Q&A with Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Question": {
+      "type": "text"
+    },
+    "Answer": {
+      "type": "text"
+    }
+  }
+}
