@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sample_mux_videos",
+  "info": {
+    "singularName": "sample-mux-video",
+    "pluralName": "sample-mux-videos",
+    "displayName": "sample-mux-video",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "mux_video_uploader_mux_asset": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::mux-video-uploader.mux-asset"
+    }
+  }
+}
